@@ -1,16 +1,87 @@
-# React + Vite
+# ToDo React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive ToDo list application built with React. This app helps users manage their daily tasks efficiently with a clean and intuitive interface.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Add Tasks**: Easily add new tasks to your list
+- **Mark Complete**: Check off completed tasks with a single click
+- **Delete Tasks**: Remove tasks you no longer need
+- **Persistent State**: Tasks are managed in real-time using React state
+- **Responsive Design**: Works seamlessly on desktop and mobile devices
+- **Modern UI**: Clean, intuitive interface built with Tailwind CSS
 
-## React Compiler
+## Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React (with Hooks)
+- Tailwind CSS for styling
+- Vite for build tooling
+- ESLint for code quality
 
-## Expanding the ESLint configuration
+## Live Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The application is deployed and can be viewed at:
+- **GitHub Pages**: https://iam269.github.io/ToDo_react/
+
+## Getting Started
+
+### Prerequisites
+
+Make sure you have Node.js and npm installed on your machine.
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/your-username/ToDo_react.git
+cd ToDo_react
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
+npm run dev
+```
+
+The app will open in your browser at [http://localhost:5173](http://localhost:5173).
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+## Usage
+
+1. **Add a Task**: Type your task in the input field and click "ADD +"
+2. **Complete a Task**: Click the checkbox next to a task to mark it as complete
+3. **Delete a Task**: Click the delete icon to remove a task from the list
+
+## Project Structure
+
+```
+src/
+├── components/
+│   ├── Todo.jsx          # Main Todo component with state management
+│   └── TodoItems.jsx     # Individual todo item component
+├── assets/               # Images and icons
+├── App.jsx               # Main app component
+├── main.jsx              # App entry point
+└── index.css             # Global styles with Tailwind
+```
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+Built with ❤️ using React
