@@ -19,6 +19,7 @@ A modern, responsive ToDo list application built with React. This app helps user
 - ESLint for code quality
 
 ## Live Demo
+https://itsiamdev.github.io/ToDo_react/
 
 The application is deployed and can be viewed at:
 - **GitHub Pages**: https://iam269.github.io/ToDo_react/
